@@ -1,0 +1,19 @@
+Usage: .mtell <user1> [<user2>...<user9>] <message>
+
+This enhanced version of the standard TELL command allows you to send
+the same message to a maximum of nine users at once.  Simply type the
+full or abbreviated usernames after the command, then type the message
+all on the same line.  Your message will be delivered even to users who
+are AFK or in the editor.
+
+NOTE:   This command "parses" (processes) the recipient usernames from
+	the first nine words you type after the command name.  It checks
+	each word in order to see if it is a username.  The process
+	stops at the first word that does not have a user match.  You
+	MAY abbreviate usernames, but if the first word of your message
+	is within the first nine words AND it is a partial-match to a
+	username, the command will send your message to that person too!
+
+	Ex:  .mtell MyFriend YourFriend go to the next room
+	This -could- be sent to ANYONE who's username starts with 'go'
+	~OLBE CAREFUL!!
