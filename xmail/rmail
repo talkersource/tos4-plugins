@@ -1,0 +1,7 @@
+This command will display the contents of your mailbox.  Please
+note that this is INTERNAL TALKER MAIL only and is NOT email.
+The messages and memos are numbered to allow selective
+deleting (see ~FG.from~RS).
+
+Use ~FG.from~RS to ONLY display a list of the people who have sent
+mail to your mailbox.

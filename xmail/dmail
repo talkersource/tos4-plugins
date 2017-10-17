@@ -1,0 +1,8 @@
+Usage: ~FG.dmail <num>|<first>-<last>|all
+
+This deletes messages from your mailbox.  
+
+".dmail all" deletes all messaes in your mailbox.
+".dmail <num>" deletes the first <num> messages from your mailbox.
+".dmail <first>-<last>" deletes all messages from the <first> to 
+the <last> messages. The <first> and <last> messages are also deleted.
