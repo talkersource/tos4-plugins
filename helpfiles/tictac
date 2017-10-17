@@ -1,0 +1,18 @@
+Usage: ~FG.tictac [<user>|<#>|reset|show|say <speech>]
+
+This command allows you to play a game of Tic-Tac-Toe with
+another user.  Start a game by typing ~FG.tictac <user>~RS where
+<user> is their name.  They will need to respond by typing the
+same command, but specifying YOUR name instead of theirs.  Once
+you have a game going, place X's on the game board by typing
+~FG.tictac <#>~RS where <#> is the number of the grid spot. To
+show your current game board, use ~FG.tictac show~RS.  If you
+want to talk directly to your opponent, you can type a message
+using ~FG.tictac say <your message here>
+
+To reset or end a game, use ~FG.tictac reset
+
+CREDITS: Code sourced from Rob Melhuish (aka 'Squirt').
+	 Original code for RaMTITS-based talkers.
+	 Modified by 'Mags' for Amnuts 2.2.1
+	 Modified by 'William' into TalkerOS 4.x plugin format.
