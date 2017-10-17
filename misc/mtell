@@ -1,0 +1,3 @@
+Usage: ~FG.mtell <user> <user> : message
+
+Gives the same tell to all users before the ':'.
