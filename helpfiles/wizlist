@@ -1,0 +1,8 @@
+Usage: ~FG.wizlist
+
+This command takes no arguments.  It uses a simplified version of the
+~FG.userlist~RS search engine to display a list of administrators in
+alphabetical order.  This file is stored as 'wizlist.txt' in the talker
+directory for administrators with shell access to use as they see fit. It
+is overwritten every time the command is run for accuracy.
+

@@ -1,0 +1,28 @@
+Usage: ~FG.userlist [<flags>] [<start> [<end>]] [<level>]
+
+The userlist command will assemble a detailed report about all the users
+who have accounts on your talker.  Use the specified flags below to
+determine what information is shown in the report list. Users can be
+searched by an alphabetical range (A-Z) specified by <start> and <end> as
+well as by a particular <level> (in number format, i.e. 1 = 'Newbie')
+The command leaves a file named 'userlist.txt' in the talker directory for
+administrators with shell access to use as they see fit.  It is
+overwritten every time the command is run.
+
+FLAG		DESCRIPTION
+
+time		Shows accumulated login time in days, hours, and minutes.
+last		Shows the number of days since a user last logged in.
+sites		Displays the last site each user connected from.
+email		Shows whatever the user has set as his/her e-mail address.
+files		Displays which types of user files have been created.
+flags		Shows Y/N for arrest, muzzle, and invisible status flags.
+all		(The equivalent of using all of the above, except email.)
+
+NOTE: Any combination of flags may be specified in any order.
+      Put a space in-between each flag.  The 'email' and 'sites' flags 
+      can NOT be used at the same time; whichever flag is used last will
+      turn the other one off.  To see email addresses with the 'all' flag,
+      set the 'email' flag before OR after the 'all' flag to turn off the
+      sites shown with 'all'.
+
