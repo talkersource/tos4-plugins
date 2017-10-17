@@ -1,0 +1,8 @@
+Usage: ~FG.fullsamesite <user>
+
+Shows all users connecting from the same site as <user>.
+
+Note: <user> is case sensitive!
+Note: Many ISP's use modem pools, where each modem has a different
+  sitename and a user can get a different modem each time. fullsamesite
+  considers those modems as different sites.

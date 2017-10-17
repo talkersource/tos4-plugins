@@ -1,0 +1,9 @@
+Usage: ~FG.usersfrom <hostname>
+
+Shows all users connecting from host <hostname>. Hostname can
+also be only a part of a hostname, then all matching hostnames
+are shown.
+
+There is one thing to be improved: the output does not pause
+when a screen is full - I hope I'll get around to add that
+sometime ;)

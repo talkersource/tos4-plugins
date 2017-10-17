@@ -1,0 +1,8 @@
+Usage: ~FG.samesite <user>
+
+Shows all users connecting from the same site as <user>.
+
+Note: <user> is case sensitive!
+Note: This is an 'relaxed' version of fullsamesite, which only compares
+  the sitename after the first dot. This should alleviate the
+  problems with modempools mentioned in the help for fullsamesite.
